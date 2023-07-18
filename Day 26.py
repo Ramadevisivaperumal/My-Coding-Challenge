@@ -12,7 +12,7 @@ num=n+1
 for i in range(n):
     num=num-1
     for j in range(1,num+1):
-        print("*",end='')
+        print("* ",end='')
     print()
 '''
 Program 2 Output:
@@ -27,7 +27,7 @@ num=1
 for i in range(1,M+1):
     num=num+1
     for j in range(1,num):
-        print(i,end='')
+        print(str(i),'',end='')
     print()
 
 
@@ -45,7 +45,7 @@ num=1
 for i in range(N):
     num=num+1
     for j in range(1,num):
-        print(j,end='')
+        print(str(j),'',end='')
     print()
 
 '''    
@@ -62,7 +62,7 @@ num=N+1
 for i in range(N):
     num=num-1
     for j in range(1,num+1):
-        print(j,end='')
+        print(str(j),'',end='')
     print()
 
 
