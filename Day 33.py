@@ -1,3 +1,4 @@
+#palindrome number
 S=int(input())
 S=str(S)
 M=S[::-1]
@@ -5,6 +6,7 @@ if(M==S):
     print("True")
 else:
     print("False")
+#Armstrong number
 N=int(input())
 M=str(N)
 sum=0
